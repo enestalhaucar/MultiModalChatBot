@@ -9,3 +9,7 @@ The following are the application images:
 ![Simulator Screenshot - iPhone 15 Pro - 2024-02-17 at 17 18 59](https://github.com/enestalhaucar/MultiModalChatBot/assets/98631709/8ae325cc-7d91-4388-81e7-6c88d7e39763)
 
 
+Sources of help while creating the application ; 
+
+https://www.youtube.com/@swiftodyssey
+https://ai.google.dev/tutorials/swift_quickstart#add-sdk
