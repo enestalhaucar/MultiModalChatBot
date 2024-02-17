@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC9B93D52B80D3AB00D4B0A0 /* MutliModalChatAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9B93D42B80D3AB00D4B0A0 /* MutliModalChatAIApp.swift */; };
+		EC9B93D72B80D3AB00D4B0A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9B93D62B80D3AB00D4B0A0 /* ContentView.swift */; };
+		EC9B93D92B80D3AC00D4B0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9B93D82B80D3AC00D4B0A0 /* Assets.xcassets */; };
+		EC9B93DC2B80D3AC00D4B0A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9B93DB2B80D3AC00D4B0A0 /* Preview Assets.xcassets */; };
+		EC9B93E42B80D42E00D4B0A0 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = EC9B93E32B80D42E00D4B0A0 /* GoogleGenerativeAI */; };
+		EC9B93E62B80D45800D4B0A0 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9B93E52B80D45800D4B0A0 /* Chat.swift */; };
+		EC9B93E82B80D4DD00D4B0A0 /* ChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9B93E72B80D4DD00D4B0A0 /* ChatService.swift */; };
+		EC9B93EA2B80DB2200D4B0A0 /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC9B93E92B80DB2200D4B0A0 /* GenerativeAI-Info.plist */; };
+		EC9B93EC2B80DB8000D4B0A0 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9B93EB2B80DB8000D4B0A0 /* APIKey.swift */; };
+		EC9B93EE2B80DF8600D4B0A0 /* MultiModalChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9B93ED2B80DF8600D4B0A0 /* MultiModalChatView.swift */; };
+		EC9B93F02B80E8BE00D4B0A0 /* ChatBuuble.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9B93EF2B80E8BE00D4B0A0 /* ChatBuuble.swift */; };
+		EC9B93F22B80E8EB00D4B0A0 /* ChatBubbleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9B93F12B80E8EB00D4B0A0 /* ChatBubbleShape.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC9B93D12B80D3AB00D4B0A0 /* MutliModalChatAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutliModalChatAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC9B93D42B80D3AB00D4B0A0 /* MutliModalChatAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutliModalChatAIApp.swift; sourceTree = "<group>"; };
+		EC9B93D62B80D3AB00D4B0A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC9B93D82B80D3AC00D4B0A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC9B93DB2B80D3AC00D4B0A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC9B93E52B80D45800D4B0A0 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		EC9B93E72B80D4DD00D4B0A0 /* ChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatService.swift; sourceTree = "<group>"; };
+		EC9B93E92B80DB2200D4B0A0 /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
+		EC9B93EB2B80DB8000D4B0A0 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		EC9B93ED2B80DF8600D4B0A0 /* MultiModalChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiModalChatView.swift; sourceTree = "<group>"; };
+		EC9B93EF2B80E8BE00D4B0A0 /* ChatBuuble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBuuble.swift; sourceTree = "<group>"; };
+		EC9B93F12B80E8EB00D4B0A0 /* ChatBubbleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleShape.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC9B93CE2B80D3AB00D4B0A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9B93E42B80D42E00D4B0A0 /* GoogleGenerativeAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC9B93C82B80D3AA00D4B0A0 = {
+			isa = PBXGroup;
+			children = (
+				EC9B93D32B80D3AB00D4B0A0 /* MutliModalChatAI */,
+				EC9B93D22B80D3AB00D4B0A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC9B93D22B80D3AB00D4B0A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9B93D12B80D3AB00D4B0A0 /* MutliModalChatAI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9B93D32B80D3AB00D4B0A0 /* MutliModalChatAI */ = {
+			isa = PBXGroup;
+			children = (
+				EC9B93D42B80D3AB00D4B0A0 /* MutliModalChatAIApp.swift */,
+				EC9B93D62B80D3AB00D4B0A0 /* ContentView.swift */,
+				EC9B93E52B80D45800D4B0A0 /* Chat.swift */,
+				EC9B93ED2B80DF8600D4B0A0 /* MultiModalChatView.swift */,
+				EC9B93EF2B80E8BE00D4B0A0 /* ChatBuuble.swift */,
+				EC9B93F12B80E8EB00D4B0A0 /* ChatBubbleShape.swift */,
+				EC9B93E72B80D4DD00D4B0A0 /* ChatService.swift */,
+				EC9B93EB2B80DB8000D4B0A0 /* APIKey.swift */,
+				EC9B93E92B80DB2200D4B0A0 /* GenerativeAI-Info.plist */,
+				EC9B93D82B80D3AC00D4B0A0 /* Assets.xcassets */,
+				EC9B93DA2B80D3AC00D4B0A0 /* Preview Content */,
+			);
+			path = MutliModalChatAI;
+			sourceTree = "<group>";
+		};
+		EC9B93DA2B80D3AC00D4B0A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC9B93DB2B80D3AC00D4B0A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC9B93D02B80D3AB00D4B0A0 /* MutliModalChatAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9B93DF2B80D3AC00D4B0A0 /* Build configuration list for PBXNativeTarget "MutliModalChatAI" */;
+			buildPhases = (
+				EC9B93CD2B80D3AB00D4B0A0 /* Sources */,
+				EC9B93CE2B80D3AB00D4B0A0 /* Frameworks */,
+				EC9B93CF2B80D3AB00D4B0A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutliModalChatAI;
+			packageProductDependencies = (
+				EC9B93E32B80D42E00D4B0A0 /* GoogleGenerativeAI */,
+			);
+			productName = MutliModalChatAI;
+			productReference = EC9B93D12B80D3AB00D4B0A0 /* MutliModalChatAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC9B93C92B80D3AA00D4B0A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EC9B93D02B80D3AB00D4B0A0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = EC9B93CC2B80D3AB00D4B0A0 /* Build configuration list for PBXProject "MutliModalChatAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC9B93C82B80D3AA00D4B0A0;
+			packageReferences = (
+				EC9B93E22B80D42E00D4B0A0 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
+			productRefGroup = EC9B93D22B80D3AB00D4B0A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC9B93D02B80D3AB00D4B0A0 /* MutliModalChatAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC9B93CF2B80D3AB00D4B0A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9B93DC2B80D3AC00D4B0A0 /* Preview Assets.xcassets in Resources */,
+				EC9B93D92B80D3AC00D4B0A0 /* Assets.xcassets in Resources */,
+				EC9B93EA2B80DB2200D4B0A0 /* GenerativeAI-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC9B93CD2B80D3AB00D4B0A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9B93F02B80E8BE00D4B0A0 /* ChatBuuble.swift in Sources */,
+				EC9B93D72B80D3AB00D4B0A0 /* ContentView.swift in Sources */,
+				EC9B93E82B80D4DD00D4B0A0 /* ChatService.swift in Sources */,
+				EC9B93E62B80D45800D4B0A0 /* Chat.swift in Sources */,
+				EC9B93D52B80D3AB00D4B0A0 /* MutliModalChatAIApp.swift in Sources */,
+				EC9B93F22B80E8EB00D4B0A0 /* ChatBubbleShape.swift in Sources */,
+				EC9B93EE2B80DF8600D4B0A0 /* MultiModalChatView.swift in Sources */,
+				EC9B93EC2B80DB8000D4B0A0 /* APIKey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC9B93DD2B80D3AC00D4B0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC9B93DE2B80D3AC00D4B0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC9B93E02B80D3AC00D4B0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MutliModalChatAI/Preview Content\"";
+				DEVELOPMENT_TEAM = S7VDAK3AXN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enestalhaucar.MutliModalChatAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC9B93E12B80D3AC00D4B0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MutliModalChatAI/Preview Content\"";
+				DEVELOPMENT_TEAM = S7VDAK3AXN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enestalhaucar.MutliModalChatAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC9B93CC2B80D3AB00D4B0A0 /* Build configuration list for PBXProject "MutliModalChatAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9B93DD2B80D3AC00D4B0A0 /* Debug */,
+				EC9B93DE2B80D3AC00D4B0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC9B93DF2B80D3AC00D4B0A0 /* Build configuration list for PBXNativeTarget "MutliModalChatAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9B93E02B80D3AC00D4B0A0 /* Debug */,
+				EC9B93E12B80D3AC00D4B0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC9B93E22B80D42E00D4B0A0 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC9B93E32B80D42E00D4B0A0 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC9B93E22B80D42E00D4B0A0 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EC9B93C92B80D3AA00D4B0A0 /* Project object */;
+}
